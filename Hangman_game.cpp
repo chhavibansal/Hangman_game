@@ -25,7 +25,7 @@ int main(){
     n = word.size();
     string guess = string(n , '*');
     cout << guess<<"\n";
-    int max_incorrect = max(3,n-2) , incorrect_till_now = 0;
+    int max_incorrect = min(24, max(3,n-2)) , incorrect_till_now = 0;
     cout <<"Lets start the guessing game\n";
     int pos[25]={0};
     char ch;
