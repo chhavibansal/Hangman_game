@@ -29,7 +29,6 @@ int main(){
     cout <<"Lets start the guessing game\n";
     int pos[25]={0};
     char ch;
-    cout << max_incorrect<<" ";
     while(incorrect_till_now < max_incorrect){
         cin >> ch;
         if(pos[ch-'a'] == 1){
